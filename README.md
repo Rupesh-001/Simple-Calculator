@@ -16,3 +16,5 @@ The result of operations is displayed in real-time on a screen or display area.
 Lightweight and Efficient:
 
 Minimal dependencies, using only HTML for structure, CSS for styling, and JavaScript for logic.
+
+![image alt](https://github.com/Rupesh-001/Simple-Calculator/blob/main/Screenshot%202024-12-15%20222234.png?raw=true)
