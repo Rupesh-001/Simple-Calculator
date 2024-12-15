@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('background-knowledge-day-celebration_52683-131709.avif');  /* Add your image name here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff8800;
+}
+
+.calculator {
+    background-color: #fffa5ebc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+/* Rest of your CSS remains the same */
+#result {
+    width: 100%;
+    height: 50px;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Option 1: Using the last button in the grid */
+.buttons button:last-child {
+    background-color: #4CAF50;  /* Green color */
+}
+
+/* OR Option 2: Add a specific class to the equals button */
+.equals-btn {
+    background-color: #4CAF50 !important;  /* Green color */
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #808080;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #808080;
+}
+
+button:active {
+    background-color: #808080;
+}
